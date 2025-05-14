@@ -4,6 +4,6 @@ for x in 'Python':
 
 fruits = ["banana", "apple", "mango"]
 for z in fruits:
-    print("Cuurent Element: ", z)
+    print("Current Element: ", z)
 
 print("Goodbye!")
