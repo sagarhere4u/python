@@ -23,3 +23,7 @@ if matchObj:
 	print ("matchObj.group(3) : ", matchObj.group(3))
 else: 
 	print ("No match!!")
+	
+#matchObj.groups() = (matchObj.group(1), matchObj.group(2), matchObj.group(3))
+for x in matchObj.groups():
+	print(x)
