@@ -1,4 +1,5 @@
 #class3.py
+
 #define a class called Dog
 class Dog:
     species = "Canis"
