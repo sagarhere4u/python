@@ -8,8 +8,7 @@ for x in df.index:
   if df.loc[x, "Income"] < 5000:
     df.drop(x, inplace=True)
 
-ax = df['Sex'].value_counts()
-ax.plot.bar(color=["orange", "blue"], width=.3)
+df['Sex'].value_counts().plot.bar(color=["orange", "blue"], width=.3)
 
 plt.show()
 
